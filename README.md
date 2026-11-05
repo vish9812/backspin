@@ -23,4 +23,9 @@ For development: `swift test`, `just build`, `just run`.
 - With a new mouse or scroll driver, run `just probe` and scroll each device to see the fields detection depends on.
 - Builds are signed ad hoc, so each rebuild invalidates the Accessibility grant. Remove backspin from the Accessibility list and re-add it, or set `BACKSPIN_SIGN_IDENTITY` to a stable signing identity.
 
+## More macOS tools
+
+- [DockNine](https://github.com/vish9812/docknine): Launch pinned Dock apps with Option+1–9.
+- [hopapp](https://github.com/vish9812/hopapp): Switch between apps on visible Spaces only.
+
 [MIT License](LICENSE)
